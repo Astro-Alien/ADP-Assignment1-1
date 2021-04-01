@@ -3,4 +3,5 @@
 #Netbeans specific folders and files
 /nbproject/
 build.xml
+pom.xml
 manifest.mf
