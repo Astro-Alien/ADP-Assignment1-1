@@ -10,7 +10,8 @@ public class Speed {
     public static int getResult() {
         return result;
     }
-
+    
+    //Set Result
     public static void setResult(int result) {
         Speed.result = result;
     }
