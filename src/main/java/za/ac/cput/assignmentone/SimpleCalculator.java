@@ -7,7 +7,8 @@ package za.ac.cput.assignmentone;
 
 /**
  *
- * @author Charles
+ * @author Charles Lemmert 
+ * Student No: 220498385
  */
 public class SimpleCalculator {
     
