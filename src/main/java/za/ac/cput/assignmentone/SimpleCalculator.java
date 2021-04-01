@@ -29,6 +29,11 @@ public class SimpleCalculator {
         return sum2;
     
     }
+    public int AdditionSum3(int f , int l){
+        int sum3 = f + l;
+        return sum3;
+    
+    }
     
     public String greeting(String greet){
         

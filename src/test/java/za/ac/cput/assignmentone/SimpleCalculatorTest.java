@@ -56,7 +56,9 @@ public class SimpleCalculatorTest {
         SimpleCalculator test2 = new SimpleCalculator();
         int output1 = test2.AdditionSum1(4, 5);
         int output2 = test2.AdditionSum2(4, 5);
+        int output3 = test2.AdditionSum3(4,9);
         assertSame(output1, output2);
+        assertNotSame(output2,output3);
 
     }
 
@@ -93,7 +95,7 @@ public class SimpleCalculatorTest {
      * Disabling Test
      * 
      */
-    @Disabled("Disabled Test with fail()")
+    @Disabled("Disabled Test with message")
     @Test
     public void testDisabled() {
         
